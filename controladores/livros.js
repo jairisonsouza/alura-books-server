@@ -19,8 +19,8 @@ function getLivro(req, res) {
         res.send(livro)
         } else { 
         res.status(422)
-        res.send("ID inválido!")}
-        
+        res.send("ID inválido!")
+    }    
     } catch (error){
         res.status(500)
         res.send(error.message)
@@ -54,7 +54,8 @@ function patchLivro(req, res) {
             res.send("Item modificado com sucesso")
         } else { 
             res.status(422)
-            res.send("ID inválido!")}
+            res.send("ID inválido!")
+        }
     } catch (error) {
         res.status(500)
         res.send(error.message)
