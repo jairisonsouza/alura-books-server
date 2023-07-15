@@ -1,1 +1,10 @@
-[{"id":"1","nome":"Livro irado"},{"id":"2","nome":"Livro muito legal"},{"id":"4","nome":"Carl Sagan - Cosmos"},{"id":"5","nome":"H.P Lovecraft - O Chamado de Cthulhu"},{"id":"3","nome":"H.P Lovecraft - A Música de Erik Zann"}]
+[
+    {
+      "id": "4",
+      "nome": "Entendendo algoritmos"
+    },
+    {
+      "id": "5",
+      "nome": "Cangaceiro Javascript"
+    }
+  ]
